@@ -1,0 +1,50 @@
+Contact Book Application
+A simple command-line contact book in Python to manage contacts.
+
+Features
+Add Contact: Add a new contact with name, phone number, and email.
+View Contacts: Display all contacts.
+Search Contact: Search for a contact by name.
+Update Contact: Update an existing contact's details.
+Delete Contact: Remove a contact by name.
+Save and Exit: Save changes to contacts.json and exit.
+Prerequisites
+Python 3.x
+Installation
+Clone the repository or download the script.
+Create a contacts.json file with initial data (optional):
+json
+Copy code
+{
+    "John Doe": {
+        "phone": "123-456-7890",
+        "email": "john.doe@example.com"
+    },
+    "Jane Smith": {
+        "phone": "987-654-3210",
+        "email": "jane.smith@example.com"
+    }
+}
+Usage
+Run the script:
+
+bash
+Copy code
+python contact_book.py
+Follow the on-screen menu to interact with the contact book.
+
+Example contacts.json
+json
+Copy code
+{
+    "John Doe": {
+        "phone": "123-456-7890",
+        "email": "john.doe@example.com"
+    },
+    "Jane Smith": {
+        "phone": "987-654-3210",
+        "email": "jane.smith@example.com"
+    }
+}
+License
+This project is licensed under the MIT License.
